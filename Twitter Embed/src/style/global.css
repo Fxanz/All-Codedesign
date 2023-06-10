@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+:root{
+  --bg-color : #141D26;
+  --main-coolor: #243447;
+  --text-color : #ffffff;
+  --fade-text-color : rgba(255,255,255,0.6);
+  --bright-blue : #1DA1F2;
+}
